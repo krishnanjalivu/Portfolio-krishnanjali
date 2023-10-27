@@ -8,55 +8,55 @@ const projectsData = [
   {
     id: 1,
     title: "Sumrz-An URL Summarizer",
-    description: "Project 1 description",
+    description: "AI-powered website where you can simply input a URL, and it will automatically generate aconcise and informative summary of the webpage's content.",
     image: "/images/ai.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/krishnanjalivu/sumrz",
+    previewUrl: "https://resonant-macaron-e02013.netlify.app/",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
+    title: "Finance App",
+    description: " Finance Dashboard App with React.App features a prediction page and also includes charts, lists, and data grids to display key performance indicators and other financial data.",
     image: "/images/financeapp.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/krishnanjalivu/Finance-App",
     previewUrl: "/",
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
+    title: "Travel Website",
+    description: "A Feature-rich travel app with Next.js 13 and Tailwind CSS, featuring various camps to explore and travel guide section with modern UI/UX",
     image: "/images/travel.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
+    tag: ["All", "UI/UX"],
+    gitUrl: "https://github.com/krishnanjalivu/Travel-Website",
     previewUrl: "/",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
+    title: "PriceTracker",
+    description: "A solution for tracking product prices on Amazon. This project is designed to scrape product details from Amazon, store the data in a MongoDB database, and send email notifications to users when there are changes in the product details.",
     image: "/images/pricetracker.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
+    tag: ["All", ],
+    gitUrl: "https://github.com/krishnanjalivu/Price-Tracker",
     previewUrl: "/",
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
+    title: "Vibez",
+    description: "A Three.js website where user can design their own Tshirt.",
     image: "/images/three.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/krishnanjalivu/Vibez",
     previewUrl: "/",
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
+    title: "Nike Web App",
+    description: "A Nike Web app featuring various shoes and discounts.",
     image: "/images/nike.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
+    tag: ["All", "UI/UX"],
+    gitUrl: "https://github.com/krishnanjalivu/nikeapp",
     previewUrl: "/",
   },
 ];
@@ -97,8 +97,8 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="UI/UX"
+          isSelected={tag === "UI/UX"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
