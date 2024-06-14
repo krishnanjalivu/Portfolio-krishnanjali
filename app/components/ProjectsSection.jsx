@@ -34,15 +34,6 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "PriceTracker",
-    description: "A solution for tracking product prices on Amazon. This project is designed to scrape product details from Amazon, store the data in a MongoDB database, and send email notifications to users when there are changes in the product details.",
-    image: "/images/pricetracker.png",
-    tag: ["All", ],
-    gitUrl: "https://github.com/krishnanjalivu/Price-Tracker",
-    previewUrl: "/",
-  },
-  {
-    id: 5,
     title: "Vibez",
     description: "A Three.js website where user can design their own Tshirt.",
     image: "/images/three.png",
@@ -51,13 +42,22 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 6,
+    id: 5,
     title: "Nike Web App",
     description: "A Nike Web app featuring various shoes and discounts.",
     image: "/images/nike.png",
     tag: ["All", "UI/UX"],
     gitUrl: "https://github.com/krishnanjalivu/nikeapp",
     previewUrl: "/",
+  },
+  {
+    id: 6,
+    title: "Boatel",
+    description: "Booking Hotels made esay",
+    image: "/images/image.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/krishnanjalivu/boatel",
+    previewUrl: "https://boatel.onrender.com/my-hotels",
   },
 ];
 
